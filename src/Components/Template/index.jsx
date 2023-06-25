@@ -1,9 +1,11 @@
-import React from 'react'
 import styles from './style.module.css'
 
-function Template({style = {}}, ...props) {
+
+// creator:
+function Template({style = {} , ...props} ) {
+
   return (
-    <div className={styles.name} style = {style} {...props}>
+    <div className={styles.name} style={style} {...props}>
 
         Template File 
         
